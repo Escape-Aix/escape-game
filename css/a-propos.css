@@ -1,0 +1,22 @@
+.apropos{
+    display: flex;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    color: var(--black);
+}
+.teams{
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+}
+.para-infos{
+    letter-spacing: 0.05em;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+.authors li{
+    font-size: 1.1em;
+    list-style-type: circle;
+    margin-left: 2em;
+}

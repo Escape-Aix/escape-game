@@ -1,0 +1,43 @@
+/* latin */
+@font-face {
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/shadowsintolight/v10/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD5.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root{
+    --main-green : white;
+    --white : rgb(92, 137, 56);
+    --second-green : black;
+    --brown : black;
+    --third-green : forestgreen;
+    --black : rgb(65, 46, 35);
+    --orange : deepskyblue;
+    --white-green : #355E22;
+    --green : rgb(92, 97, 56);
+    --blue : rgb(255, 165, 0);
+    --font : 'Shadows Into Light', cursive;
+}
+.footer{flex-flow: row-reverse wrap;}
+.article-1,.article-2,.article-3{flex-flow: row-reverse wrap;}
+.form form{flex-direction: column-reverse;}
+.socials{flex-direction: column-reverse;}
+.main{flex-flow: row-reverse wrap;}
+.apropos{flex-direction: column-reverse;}
+.brief{flex-flow: row-reverse wrap;}
+.description{flex-direction: column-reverse;}
+.navbar ul{flex-direction: row-reverse;}
+.presentation{background-image: url("../images/inverse/reversebackground.jpg");}
+.picture-first{content: url("../images/inverse/mangohaze.jpeg");}
+.picture-second{content: url("../images/inverse/huile.jpeg");}
+.picture-third{content: url("../images/inverse/the.jpeg");}
+
+#picture-mangohaze{content: url("../images/inverse/mangohaze.jpeg");}
+#picture-huile{content: url("../images/inverse/huile.jpeg");}
+#picture-the{content: url("../images/inverse/the.jpeg");}
+
+.facebook img{content: url("../images/inverse/facebook.png");}
+.instagram img{content: url("../images/inverse/instagram.png");}
+.twitter img{content: url("../images/inverse/twitter.png");}

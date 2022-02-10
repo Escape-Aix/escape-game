@@ -1,0 +1,111 @@
+@media screen and (max-width: 1500px) {
+    .apropos{font-size: 18px}
+}
+@media screen and (max-width: 1380px)
+{
+    .navbar{font-size: 17px}
+    .presentation{font-size: 17px}
+    .introduction{font-size: 17px}
+    .container{font-size: 15px}
+    .apropos{
+        font-size: 16px;
+        width: 70%;
+    }
+    .main{font-size: 15px}
+    .contact{font-size: 18px}
+    .nos-articles, .brief, .more-information {font-size: 15px;}
+    .nos-scenario{font-size: 17px}
+    .border-animation{font-size: 17px}
+}
+@media screen and (max-width: 1050px)
+{
+    .container{font-size: 13px}
+    .nos-scenario{font-size: 15px}
+    .border-animation{font-size: 13px}
+}
+
+@media screen and (max-width: 900px)
+{
+    .nos-articles, .brief, .more-information {font-size: 14px;}
+    .all-infos-first li, .all-infos-second li, .all-infos-third li{font-size: 1.3em;}
+}
+
+@media screen and (max-width: 890px)
+{
+    .container{font-size: 15px}
+    .apropos{font-size: 22px}
+    .nos-scenario{
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        border-radius: 2em;
+    }
+    .nos-scenario .first{width: auto}
+    .nos-scenario .description{width: auto}
+    .border-animation{font-size: 10px}
+}
+
+@media screen and (max-width: 750px)
+{
+    .structure{
+        margin: 1em;
+        width: auto;
+    }
+    .brief{
+        gap: 2em;
+        justify-content: center;
+    }
+    .picture-article{
+        width: 20em;
+        height: 20em;
+    }
+    .all-infos-first, .all-infos-second, .all-infos-third{margin-bottom: 5em;}
+}
+@media screen and (max-width: 700px){
+    .presentation{
+        font-size: 13px;
+        clip-path: ellipse(95% 60% at 50% 30%);
+        justify-content: center;
+    }
+    .introduction{font-size: 12px}
+    .article-1,.article-2,.article-3{font-size: 10px}
+    .header-title{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .header-title span{
+        color : var(--white);
+        font-weight: 700;
+    }
+    .article-2 .first{order: 1}
+    .article-2 .second{order: 2}
+    .apropos{font-size: 13px}
+    .main{font-size: 10px}
+    .contact{font-size: 13px}
+    .input{padding: 0.8em 0 0.8em 0}
+    .textarea{
+        padding: 0.8em 0 0.8em 0;
+        height: 7em;
+    }
+    .button{ padding: 1em 0 1em 0;}
+    .para-form{font-size: 1.3em}
+    .title-form{font-size: 1.8em}
+    .show-infos{font-size: 1.2em}
+    .all-infos-first li ,.all-infos-second li,.all-infos-third li{font-size: 1.1em}
+    .navbar-link {display: none}
+    .navbar i{display: flex}
+    .responsive-navbar{font-size: 17px}
+    .start{width: auto;}
+    .footer{
+        font-size: 17px;
+        flex-direction: column;
+        }
+    .picture-article{
+        width: 16em;
+        height: 16em}
+    .border-animation{font-size: 7px}
+}
+@media screen and (max-width: 320px)
+{
+    .main{font-size: 10px}
+}
